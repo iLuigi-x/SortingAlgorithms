@@ -10,7 +10,7 @@ BubbleSort:
 	$(CXX) $(CXXFLAGS) -o BubbleSort.o BubbleSort.cpp
 
 # Rule to build InsertionSort executable
-InsertionSort: InsertionSort.o
+InsertionSort: 
 	$(CXX) $(CXXFLAGS) -o InsertionSort.o InsertionSort.cpp
 
 
